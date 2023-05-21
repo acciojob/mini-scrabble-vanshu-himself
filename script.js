@@ -6,6 +6,6 @@ const textbar=document.getElementById('evaluatedText');
 // })
  textbar.addEventListener("input",()=> {
           
-           letterCounte.innerText = textbar.value.length;
+           letterCount.innerText = textbar.value.length;
           });
 
