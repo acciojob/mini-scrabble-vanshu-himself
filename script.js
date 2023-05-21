@@ -4,8 +4,8 @@ const textbar=document.getElementById('evaluatedText');
 // function counter(){
 // 	counter.innerHTML=textbar.value.length;
 // })
- textbar.addEventListener("input", function countWord() {
+ textbar.addEventListener("input",()=> {
           
-            counter.innerText = textbar.value.length;
+           letterCounte.innerText = textbar.value.length;
           });
 
